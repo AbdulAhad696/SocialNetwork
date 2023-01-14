@@ -1,0 +1,23 @@
+.res-img{
+    height: 2vh;
+}
+.mainNav{
+    background-color:#B63A38;
+    min-height:85px;
+    max-height:85px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+.link:hover{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    height:7vh;
+}
+.headerName{
+    font-size: 3vh;
+    font-style: oblique;
+}

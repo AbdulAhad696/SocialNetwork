@@ -1,0 +1,39 @@
+.textColor{
+    color: white;
+}
+.alert{
+    z-index: 10000;
+}
+.mainDiv{
+    height: 100vh;
+}
+.card{
+    background-color: #FDA427;
+}
+.card-heading{
+    font-style: oblique;
+}
+.divider{
+    color:white;
+    max-width:400px;
+    width:50vw;
+    min-width:200px
+}
+.textCenter{
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+.dividerHalf{
+    color:white;
+    max-width:200px;
+    width:25vw;
+    min-width:100px
+}
+.inputbg{
+    display: flex;
+    align-items: flex-end;
+    background-color: #FDA427;
+}

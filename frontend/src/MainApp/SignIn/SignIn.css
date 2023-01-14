@@ -1,0 +1,26 @@
+.mainSignInDiv{
+    height: 100vh;
+}
+.card{
+    background-color: #FDA427;
+}
+.cardTitle{
+    font-style: oblique
+}
+.signinDivider{
+    color:white;
+    max-width:300px;
+    width:50vw;
+    min-width:180px;
+}
+.inputbg{
+    display: flex;
+    align-items: flex-end;
+    background-color: #FDA427;
+}
+.signInHalfDivider{
+    color:white;
+    max-width:120px;
+    width:25vw;
+    min-width:90px;
+}
