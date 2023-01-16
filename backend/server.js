@@ -1,8 +1,10 @@
 import express from "express"
 import cors from "cors"
-import signup from "./routes/signup.js"
 import "./utility/dbconnect.js"
-import signin from "./routes/signin.js"
+
+import signup from "./routes/signup.js";
+import signin from "./routes/signin.js";
+import usersRouter from "./routes/userRouter.js";
 
 const app = express()
 const port = process.env.Port || 8001
@@ -12,8 +14,8 @@ app.use(cors())
 app.use(express.json());
 
 // Routes
-app.use("/signin",signin)
-app.use("/signup",signup)
-
+app.use("/signin", signin)
+// app.use("/signup", signup)
+app.use("/user", usersRouter);
 
 app.listen(port,()=>console.log(`LISTENING ON PORT: ${port}`))
