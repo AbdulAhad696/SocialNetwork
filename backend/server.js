@@ -5,7 +5,7 @@ import "./utility/dbconnect.js"
 import signup from "./routes/signup.js";
 import signin from "./routes/signin.js";
 import usersRouter from "./routes/userRouter.js";
-import postRouter from "./routes/postRouter.js"
+import postRouter from "./routes/postRouter.js ."
 
 const app = express()
 const port = process.env.Port || 8001

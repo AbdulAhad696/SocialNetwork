@@ -29,6 +29,17 @@ router.post("/",async (req,res)=>{
     })
 })
 
+// update post
+router.put("/",async(req,res)=>{
+    let post = new Posts(req.body)
+    if(post){
+        res.send({message:"Post updated successfully",status:true})
+    }
+    else{
+        res.send({message:"failed to update Post",status:false})
+    }
+})
+// delete post
 router.delete("/", async(req,res)=>{
     let post = await Posts.deleteOne({_id:mongoose.Types.ObjectId(req.body.postID)})
     if (post.deletedCount===1){
